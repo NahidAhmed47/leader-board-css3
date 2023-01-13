@@ -25,6 +25,7 @@ Top players styles
     background: #FFFFFF;
     border-radius: 5px;
     padding: 30px;
+    margin-top: 21px;
 }
 .top-players{
     margin-bottom: 30px;
@@ -76,4 +77,48 @@ Top blogs styles
 .blog-author a{
     color: #562EFF;
     text-decoration: none;
+}
+/*----------------
+Latest courses styles 
+------------------*/
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.course{
+    width: 240px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    border-radius: 8px;
+}
+.course img{
+    width: 224px;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-rating{
+    display: flex;
+    align-items: center;
+    gap: 3.5px;
+    color: #FFC014;
+    width: 12.4px;
+}
+.course-rating > p{
+    margin-left: 6px;
+    color: #A2A2A2;
+    font-size: 14px;
+}
+.course-duration{
+    width: 94px;
+    height: 29px;
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #FF4A60;
 }
